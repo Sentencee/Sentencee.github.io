@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(cors());
 
 // MongoDB Connection
-const uri = 'mongodb+srv://dbUser:dbUser@currencies-cluster.jdka7.mongodb.net/?retryWrites=true&w=majority&appName=currencies-cluster'; // Adres lokalnego serwera MongoDB
+const uri = 'mongodb+srv://cossytheplayer:xlHv5O1qyySmnu2z@simple-login.9vbw8.mongodb.net/?retryWrites=true&w=majority&appName=simple-login'; // Adres lokalnego serwera MongoDB
 const client = new MongoClient(uri);
 const dbName = 'simple-login';
 let db;

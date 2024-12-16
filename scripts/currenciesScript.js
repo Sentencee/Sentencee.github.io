@@ -94,7 +94,7 @@ function addConversionToHistory(baseCurrency, targetCurrency, amount, result) {
 function convert(baseCurrency, targetCurrency) {
     console.log("Login: ", baseCurrency, targetCurrency);
     const resultDiv = document.getElementById('result');
-    fetch('https://memqowsky-github-io.onrender.com/getCurriencies', {
+    fetch('https://sentencee-github-io.onrender.com/getCurriencies', {
     // fetch('http://localhost:3000/getCurriencies', {
         method: 'POST',
         headers: {
@@ -178,7 +178,7 @@ async function fetchHistoricalRates() {
     const days = 7;
 
     try {
-        const response = await fetch('https://memqowsky-github-io.onrender.com/getHistoricalRates', {
+        const response = await fetch('https://sentencee-github-io.onrender.com/getHistoricalRates', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
