@@ -379,56 +379,6 @@ const testQuestions = [
             "Użycie wyłącznie statycznych obrazów"
         ],
         correctAnswer: 1
-    },
-    {
-        question: "Jaką rolę pełnią smartfony w ekosystemie IoT?",
-        answers: [
-            "Służą tylko do przeglądania internetu",
-            "Pełnią funkcję centrów sterowania inteligentnymi urządzeniami",
-            "Nie mają znaczenia w IoT",
-            "Służą wyłącznie do komunikacji"
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Co jest kluczowe w projektowaniu interfejsów dla Voice UI?",
-        answers: [
-            "Skomplikowane komendy głosowe",
-            "Uproszczenie interakcji i dostosowanie do komend głosowych",
-            "Rezygnacja z interfejsu graficznego",
-            "Zwiększenie liczby opcji menu"
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Co oznacza skrót A11y w kontekście Mobile First?",
-        answers: [
-            "Algorithm",
-            "Accessibility (Dostępność)",
-            "Application",
-            "Analytics"
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Jaki jest optymalny czas ładowania strony mobilnej?",
-        answers: [
-            "Poniżej 10 sekund",
-            "Poniżej 3 sekund",
-            "Poniżej 1 minuty",
-            "Nie ma znaczenia"
-        ],
-        correctAnswer: 1
-    },
-    {
-        question: "Co to jest bounce rate w kontekście Mobile First?",
-        answers: [
-            "Szybkość animacji",
-            "Wskaźnik odrzuceń pokazujący ile osób opuszcza stronę",
-            "Liczba wyświetleń strony",
-            "Czas spędzony na stronie"
-        ],
-        correctAnswer: 1
     }
     
 ];
